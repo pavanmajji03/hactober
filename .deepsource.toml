@@ -5,4 +5,11 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  plugins = ["angular"]
+  plugins = [
+    "react",
+    "vue",
+    "meteor",
+    "ember",
+    "angular",
+    "angularjs"
+  ]
